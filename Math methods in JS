@@ -1,0 +1,6 @@
+// DO NOT USE ARGUMENTS FOR INPUTS
+// Input num valus is in variable *num*
+var num = parseInt(readLine().trim());
+// YOUR CODE GOES HERE
+const nearestIntegralLog = Math.round(Math.log2(num));
+console.log(nearestIntegralLog);
