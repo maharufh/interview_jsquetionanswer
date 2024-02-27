@@ -1,0 +1,7 @@
+var Str = readLine().trim();
+var patt = readLine().trim();
+// YOUR CODE GOES HERE
+
+var regex = new RegExp(patt, "i"); // "i" flag for case-insensitive search
+var result = regex.test(Str);
+console.log(result);
