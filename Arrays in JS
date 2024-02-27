@@ -1,0 +1,11 @@
+var size_ = parseInt(readLine().trim());
+var array_ = []
+for(var i = 0 ; i < size_; i++ ){
+    var x = parseInt(readLine().trim());
+    array_.push(x);
+}
+// YOUR CODE GOES HERE
+for (var i = 0; i < size_; i++) {
+    var updatedElement = array_[i] + i;
+    console.log(updatedElement);
+}
