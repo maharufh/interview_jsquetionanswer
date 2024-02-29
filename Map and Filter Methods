@@ -1,0 +1,14 @@
+// DO NOT USE ARGUMENTS FOR INPUTS
+// Vaiable size_ is the size of input array.
+// Variable A stores all the array elements
+var size_ = parseInt(readLine().trim());
+var A = []
+for(var i = 0 ; i < size_; i++ ){
+    var x = parseInt(readLine().trim());
+    A.push(x);
+}
+// YOUR CODE GOES HERE
+for(let i =0;i<A.length;i++)
+{
+if(A[i]%4==0) console.log(A[i]*2)
+}
